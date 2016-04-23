@@ -52,6 +52,9 @@ public class Main {
                     }
                     System.out.println("");
                     break;
+                case 5:
+                    pht.sederhana();
+                    break;
                 default:
                     System.out.println("Pilihan tidak ada");
                     break;
@@ -66,6 +69,7 @@ public class Main {
         System.out.println("2. Pengurangan");
         System.out.println("3. Perkalian");
         System.out.println("4. Pembagian");
+        System.out.println("5. Penyederhanaan Pecahan");
         System.out.println("0. Keluar");
         System.out.print("Pilih:");
     }
