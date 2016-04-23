@@ -1,7 +1,5 @@
 package praktikum;
-
 import java.util.Scanner;
-
 public class MainAritmatika {
 
     public static void main(String[] args) {
