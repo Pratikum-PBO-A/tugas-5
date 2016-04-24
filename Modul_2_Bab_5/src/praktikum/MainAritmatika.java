@@ -23,5 +23,13 @@ public class MainAritmatika {
 //memanggil method NONstatic harus melalui objek
         Aritmatika a = new Aritmatika();
         a.hitungPenjumlahan(value1, value2);
+        
+        System.out.print("masukkan nilai 1 : ");
+        double n1 = in.nextDouble();
+        System.out.print("masukkan nilai 2 : ");
+        double n2 = in.nextDouble();
+        String nn1 = java.lang.Double.toString(n1);
+        String nn2 = java.lang.Double.toString(n2);
+        a.hitungPembagian(nn1, nn2);
     }
 }
