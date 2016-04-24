@@ -20,22 +20,23 @@ public class hitung {
     }
     
     static int BilPecahannya (int pemb, int peny){
-    int s=2,t=2;
-    int a=pemb, b=peny;
+        int s=2,t=2;
+        int a=pemb, b=peny;
     while (a!=b){
-    if (a>b){
+        if (a>b){
     while ((pemb%s)!=0){
-    s++;
+        s++;
     }
-    a=pemb/s;
-    s++;
-    } else {
+        a=pemb/s;
+        s++;
+    } 
+        else {
     while ((peny%t)!=0){
-    t++;
+        t++;
     }
-    b=peny/t;
-    t++;
-    }
+        b=peny/t;
+        t++;
+        }
     }
     return (a);
 }
